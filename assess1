@@ -1,0 +1,68 @@
+<html>
+<head><title>
+Tracker
+</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ div{	
+	width:20px;
+	height:30px;}
+</style>
+</head>
+<body>
+<header>
+<h2>Tracker</h2>
+</header>
+<main>
+<input type="search" list="hi" placeholder="Search my name">
+<datalist id="hi">
+<option  value=""></option>
+<option  value=""></option>
+<option  value=""></option>
+<option  value=""></option>
+<option  value=""></option>
+<option  value=""></option>
+<option  value=""></option>
+<option  value=""></option>
+</datalist>
+<button>&#128269</button><br><br>
+<table>
+<div>
+<fieldset>
+<img src="C:\Users\my pc\Downloads\a1.jfif" width="300"></td>
+<span id="mlb">Tara</span>
+<br><br>
+<span id="mlb1">tara1@gmail.com</span><br>
+<span id="mlb2">&#8377 1,00,000</span><br>
+</fieldset>
+<fieldset>
+
+
+<img src="C:\Users\my pc\Downloads\a2.jfif" width="300">
+<span id="sat" >Sara</span>
+<br><br>
+<span id="sat1">sara1@gmail.com</span><br>
+<span id ="sat2">&#8377 1,00,000</span><br></fieldset>
+
+
+<fieldset>
+<img src="C:\Users\my pc\Downloads\a3.jfif" width="300"><span id="img">Varun</span>
+<br><br>
+<span id="img1">varun1@gmail.com</span><br>
+<span id="img2">&#8377 1,00,000</span><br></fieldset>
+<fieldset>
+<img src="C:\Users\my pc\Downloads\a4.jfif" width="300" height="200"></fieldset>
+<fieldset>
+<img src="C:\Users\my pc\Downloads\a5.jfif" width="300"></fieldset>
+<fieldset>
+<img src="C:\Users\my pc\Downloads\a6.jfif" width="300">
+</fieldset><fieldset>
+<img src="C:\Users\my pc\Downloads\a7.jfif" width="300"></fieldset>
+<fieldset>
+<img src="C:\Users\my pc\Downloads\a8.jfif" width="300" height="200">
+</fieldset></div>
+</table>
+</main>
+
+</body>
+</html>
