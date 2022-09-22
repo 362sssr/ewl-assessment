@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>login</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+       main{background-image:"C:\Users\DELL\Downloads\img1.jpg"}
+       .abc{
+			background:rgba(0,30,50,0.7);	
+			padding-top:30px;
+			padding-bottom:50px;}
+	.def{		position:relative;		
+			background-color:white;
+			border-radius:10px;
+			padding:70px;
+			padding-bottom:100px;
+			height:200px;
+			text-align:center;
+			}
+	button{
+			background-color:dodgerblue;
+			border-width:1px;
+			border-radius:50px;
+			padding-top:8px;
+			padding-bottom:8px;
+			padding-right:60px;
+			padding-left:60px;
+}
+	a:hover{	display:inline;
+		color:blue;}
+
+	a{	display:inline;
+		color:black;
+		padding:5px;
+		}
+	input{border-radius:30px;
+		padding-bottom:8px;
+		padding-top:8px;
+text-align:center;}
+
+  </style>   
+</head>
+<body background="C:\Users\DELL\Downloads\img1.jpg">
+<header >
+<h1>Tracker</h1>
+</header>
+<main  >
+
+<fieldset class="abc" >
+<center>
+<fieldset class="def" style="width:20">
+<h1>log In	</h1>
+<br>
+<input type="email" placeholder="Your email" id="p1">
+<br><br>
+<input type="password" placeholder="Your password"  id="p2">
+<br><br>
+
+<br>
+<button onclick="mlb()"><a href="tracker2.html" target="_blank">Log In</a></button>
+<p id="p"></p>
+<script src="mlb.js">
+
+</script>
+
+
+<br>
+</fieldset>
+</center>
+</fieldset>
+</main>
+<footer>
+<h3>Tracker</h3>
+
+<hr>
+<br>
+<a href="#">Home</a>
+<a href="#">About Us</a>
+<a href="#">Contact Us</a>
+</footer>
+</body>
+</html>
+
+Javascript
+
+function mlb()
+{
+var un=document.getElementById("p1");
+var pw=document.getElementById("p2");
+if((un=="")||(pw==""))
+{
+document.getElementById("p").innerHTML="Invalid Credentials";
+document.getElementById("p").style.color="red";
+}
+else{
+document.getElementById("p").innerHTML="hello";
+}
+}
